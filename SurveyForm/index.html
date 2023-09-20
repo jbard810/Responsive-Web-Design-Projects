@@ -2,9 +2,33 @@
 <html lang="en">
     <head>
         <title>Survey Form</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
     </head>
-    <body></body>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to fill out the form.</p>
+        <form id="survey-form">
+            <!-- fieldset for keyboard inputs -->
+            <fieldset>
+                <label for="name" id="name-label">Name<input required type="text" id="name" name="name" placeholder="John Doe"></label>
+                <label for="email" id="email-label">Email<input required type="email" id="email" name="email" placeholder="JohnDoe@gmail.com"></label>
+                <label for="age" id="number-label">Age<input required type="number" id="age" name="age" min="13" max="120" placeholder="20"></label>
+            </fieldset>
+            <!-- fieldset for selection inputs-->
+            <fieldset>
+                <p>Would you recommend our service to a friend?</p>
+                <label><input type="radio">Definitely</label>
+                <label><input type="radio">Maybe</label>
+                <label><input type="radio">Not Sure</label>
+
+            </fieldset>
+            <!-- fieldset for long-form response-->
+            <fieldset>
+
+            </fieldset>
+
+        </form>
+    </body>
 </html>
