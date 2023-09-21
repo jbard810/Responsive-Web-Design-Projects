@@ -1,34 +1,108 @@
 h1, p {
+    font-family: sans-serif;
+}
+
+h1, #description {
     text-align: center;
+}
+p {
+    font-size: 18px;
+}
+
+
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 4.5%;
+}
+
+.radio {
+    font-size: 16px;
+    display: flex;
+    margin: 0.5rem 0;
+}
+.checkbox {
+    font-size: 16px;
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.question {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 4.7%;
 }
 
 body {
-    font-family: Montserrat;
-    background-color: #322ac7DD;
-    color: #FFFFFF;
+    font-family: sans-serif;
+    background-color: #E0A96D;
+    color: #201E20;
+    margin: 0 auto;
+    width: 50vw;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+fieldset {
+    background-color: #DDC3A5;
+    border-color: #201E20;
+    margin: 10px auto 10px auto;
     width: 50vw;
     max-width: 500px;
     min-width: 300px;
-    margin: 0 auto;
-}
-fieldset {
-    background-color: #32314ddd;
-    border-color: #32314ddd;
-    margin: 10px auto 10px auto;
+    border-radius: 5px;
 }
 
 input {
+    font-family: sans-serif;
     display: block;
-    margin: 10px 0 10px 0;
-    width: 40vw;
+    background-color: #FFFFFF;
+    margin: 10px auto 10px auto;
+    width: 90%;
+    height: 2.5vhvh;
+    border-radius: 5px;
 }
 
+.selection-group {
+    margin-left: 5%;
+}
+
+
 input[value="Submit"] {
+    font-family: sans-serif;
+    background-color: #FFFFFF;
     margin-top: 10px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     width: 30vw;
+    height: 3vh;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+select {
+    font-family: sans-serif;
+    display: block;
+    margin: 10px auto 10px auto;
+    background-color: #FFFFFF;
+    height: 2.5vhvh;
+    width: 90%;
+    border-radius: 5px;
+}
+
+option {
+    border-radius: 5px;
+    height: 2.5vhvh;
 }
 
 textarea {
-    align-items: center;
+    font-family: sans-serif;
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 90%;
+    border-radius: 5px;
 }
