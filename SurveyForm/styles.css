@@ -2,14 +2,36 @@ h1, p {
     font-family: sans-serif;
 }
 
+h1 {
+    font-family: "helvetic neue"
+}
+
 h1, #description {
     text-align: center;
+}
+
+#description-div {
+    margin-left: 8%;
+    display: block;
+    width: 50vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+#description {
+    margin-inline-start: 6px;
+    text-align: left;
+    font-size: 16px;
 }
 p {
     font-size: 18px;
 }
 
-
+hr {
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
 
 label {
     font-family: sans-serif;
@@ -36,7 +58,7 @@ label {
 
 body {
     font-family: sans-serif;
-    background-color: #E0A96D;
+    background-color: #007ACC;
     color: #201E20;
     margin: 0 auto;
     width: 50vw;
@@ -71,7 +93,7 @@ input {
 
 input[value="Submit"] {
     font-family: sans-serif;
-    background-color: #FFFFFF;
+    background-color: white;
     margin-top: 10px;
     margin: 0 auto 10px auto;
     width: 30vw;
@@ -87,7 +109,7 @@ input[type="radio"], input[type="checkbox"] {
 select {
     font-family: sans-serif;
     display: block;
-    margin: 10px auto 10px auto;
+    margin: 10px auto 15px auto;
     background-color: #FFFFFF;
     height: 2.5vhvh;
     width: 90%;
