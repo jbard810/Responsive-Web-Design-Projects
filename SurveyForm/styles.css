@@ -1,0 +1,34 @@
+h1, p {
+    text-align: center;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #322ac7DD;
+    color: #FFFFFF;
+    width: 50vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+fieldset {
+    background-color: #32314ddd;
+    border-color: #32314ddd;
+    margin: 10px auto 10px auto;
+}
+
+input {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 40vw;
+}
+
+input[value="Submit"] {
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 30vw;
+}
+
+textarea {
+    align-items: center;
+}
